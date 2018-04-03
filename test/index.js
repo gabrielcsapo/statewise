@@ -94,7 +94,7 @@ test('@statewise', (t) => {
             })
           ])
           t.fail(stateManager, 'should not be initialized')
-        } catch(ex) {
+        } catch (ex) {
           t.equal(ex.message, 'state is not an instance of State')
           t.end()
         }
@@ -195,6 +195,5 @@ test('@statewise', (t) => {
         t.end()
       })
     })
-
   })
 })
