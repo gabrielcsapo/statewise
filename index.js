@@ -101,7 +101,7 @@ function ask (prompt, validate, exampleResponse, redo = false) {
     process.stdin.once('data', function (data) {
       const answer = data.toString().trim()
       if (validate.exec(answer) == null) {
-        resolve(ask(question, validate, exampleResponse, redo))
+        resolve(ask(prompt, validate, exampleResponse, true))
       } else {
         resolve(answer)
       }
