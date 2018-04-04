@@ -3,7 +3,6 @@ class StateManager {
     this.currentStateIndex = 0
     this.statesMap = {}
     this.states = states.map((state, index) => {
-      console.log(state instanceof State)
       if (state instanceof State) {
         // this is to be able to transition to states in constant time
         this.statesMap[state.name] = index

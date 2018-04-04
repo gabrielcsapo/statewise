@@ -1,6 +1,6 @@
 {
   "name": "statewise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🐾 remember what state you're in",
   "main": "index.js",
   "directories": {

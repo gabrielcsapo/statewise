@@ -1,3 +1,7 @@
+# 0.0.3 (04/04/2018)
+
+- removes console.log in index
+
 # 0.0.2 (04/04/2018)
 
 - passes the correct prompt to ask when it fails validation and needs to reprompt.
